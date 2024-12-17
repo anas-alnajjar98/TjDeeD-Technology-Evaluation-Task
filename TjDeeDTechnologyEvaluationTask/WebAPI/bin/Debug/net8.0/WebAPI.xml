@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPI.Controllers.CategoriesController.CreateCategory(System.String)">
+            <summary>
+            Creates a new category.
+            </summary>
+            <param name="categoryName">The name of the category to create.</param>
+            <returns>Returns a success message with the created category ID.</returns>
+            <response code="200">Category created successfully</response>
+            <response code="400">Bad request due to empty or invalid category name</response>
+            <response code="403">Forbidden if the user does not have the required permissions</response>
+        </member>
+        <member name="M:WebAPI.Controllers.CategoriesController.UpdateCategory(System.Int32,System.String)">
+            <summary>
+            Updates an existing category by its ID.
+            </summary>
+            <param name="categoryId">The ID of the category to update.</param>
+            <param name="updatedCategory">The updated name for the category.</param>
+            <returns>Returns a success message if the category was updated, or an error message if something went wrong.</returns>
+            <response code="200">Category updated successfully</response>
+            <response code="400">Bad request due to empty or invalid category name</response>
+            <response code="404">Not found if the category with the specified ID does not exist</response>
+            <response code="401">Unauthorized if the user does not have permission to update the category</response>
+            <response code="500">Internal server error if something goes wrong during the update process</response>
+        </member>
+        <member name="M:WebAPI.Controllers.CategoriesController.DeleteCategory(System.Int32)">
+            <summary>
+            Deletes a category and its associated products by the category ID.
+            </summary>
+            <param name="categoryId">The ID of the category to delete.</param>
+            <returns>Returns a success message if the category and its products are deleted, or an error message if something went wrong.</returns>
+            <response code="200">Category and its products deleted successfully</response>
+            <response code="400">Bad request if category ID is invalid</response>
+            <response code="404">Not found if the category with the specified ID does not exist</response>
+            <response code="401">Unauthorized if the user does not have permission to delete the category</response>
+            <response code="500">Internal server error if something goes wrong during the deletion process</response>
+        </member>
+        <member name="M:WebAPI.Controllers.OrderController.CreateOrder(Application.DTOs.OrderDTOs.CreateOrderDto)">
+            <summary>
+            Creates a new order for a user.
+            </summary>
+            <param name="createOrderDto">The details of the order to create.</param>
+            <returns>The created order, or an error message if the order creation fails.</returns>
+            <response code="201">Returns the created order details.</response>
+            <response code="400">Returns bad request if the order data is null or invalid.</response>
+            <response code="500">Returns internal server error if an unexpected error occurs during order creation.</response>
+        </member>
+        <member name="M:WebAPI.Controllers.OrderController.GetOrderById(System.Int32)">
+            <summary>
+            Retrieves an order by its ID.
+            </summary>
+            <param name="orderId">The ID of the order to retrieve.</param>
+            <returns>The order details if found, or a not found message if the order doesn't exist.</returns>
+            <response code="200">Returns the order details if the order is found.</response>
+            <response code="404">Returns not found if no order with the specified ID exists.</response>
+        </member>
+        <member name="M:WebAPI.Controllers.OrderController.CreatePayment(Application.DTOs.OrderDTOs.CreateOrderDto)">
+            <summary>
+            Initiates the payment process by creating an order and generating a payment intent.
+            </summary>
+            <param name="createOrderDto">The order details to be created, including customer information, items, and total amount.</param>
+            <returns>An HTTP response containing the payment intent ID and client secret if successful, or an error message if failed.</returns>
+            <response code="200">Returns the payment intent ID and client secret.</response>
+            <response code="400">Returns an error if order creation fails.</response>
+            <response code="404">Returns an error if the created order is not found.</response>
+        </member>
+        <member name="M:WebAPI.Controllers.UserController.RegisterUser(Application.DTOs.UserDTOS.UserRegistrationDto)">
+            <summary>
+            Registers a new user with the provided registration data.
+            </summary>
+            <param name="registrationDto">The registration data containing the user's username, email, password, and full name.</param>
+            <returns>Returns a success message if registration is successful, or an error message if registration fails.</returns>
+            <response code="200">User registered successfully.</response>
+            <response code="400">Bad request if registration data is invalid or the user already exists.</response>
+            <response code="500">Internal server error if an unexpected error occurs during registration.</response>
+        </member>
+        <member name="M:WebAPI.Controllers.UserController.Login(Application.DTOs.LoginREQ_RES.LoginRequest)">
+            <summary>
+            Authenticates a user with the provided login credentials (email/username and password).
+            </summary>
+            <param name="loginRequest">The login request containing the user's email/username and password.</param>
+            <returns>Returns an authentication response containing the access token and refresh token if login is successful.</returns>
+            <response code="200">Successfully authenticated, returns access token and refresh token.</response>
+            <response code="401">Unauthorized if credentials are invalid.</response>
+            <response code="500">Internal server error if an unexpected error occurs during authentication.</response>
+        </member>
+        <member name="M:WebAPI.Controllers.UserController.RefreshToken(System.String)">
+            <summary>
+            Refreshes the user's access token using the provided refresh token.
+            </summary>
+            <param name="refreshToken">The refresh token used to obtain a new access token.</param>
+            <returns>Returns a new access token if the refresh token is valid and not expired.</returns>
+            <response code="200">Successfully refreshed the access token.</response>
+            <response code="401">Unauthorized if the refresh token is invalid or expired.</response>
+            <response code="500">Internal server error if an unexpected error occurs during the refresh process.</response>
+        </member>
+        <member name="M:ProductController.CreateProduct(Application.DTOs.ProductDTOs.CreateProductDto)">
+            <summary>
+            Creates a new product.
+            </summary>
+            <param name="createProductDto">The product data to be created.</param>
+            <returns>A success message if the product is created, otherwise returns an error message.</returns>
+            <response code="200">Returns a success message when the product is created successfully.</response>
+            <response code="400">Returns a bad request if the image file is not provided.</response>
+            <response code="500">Returns an internal server error if an unexpected error occurs.</response>
+        </member>
+        <member name="M:ProductController.GetProductById(System.Int32)">
+            <summary>
+            Retrieves a product by its ID.
+            </summary>
+            <param name="id">The ID of the product to retrieve.</param>
+            <returns>The product details if found, otherwise returns a 404 Not Found.</returns>
+            <response code="200">Returns the product details if the product is found.</response>
+            <response code="404">If no product is found with the provided ID.</response>
+            <response code="500">Internal server error if an unexpected error occurs during the process.</response>
+        </member>
+        <member name="M:ProductController.DeleteProduct(System.Int32)">
+            <summary>
+            Deletes a product by its ID.
+            </summary>
+            <param name="id">The ID of the product to be deleted.</param>
+            <returns>No content if the product is deleted successfully, or an error message if an issue occurs.</returns>
+            <response code="204">Returns no content when the product is deleted successfully.</response>
+            <response code="401">Returns unauthorized if the user is not authenticated or does not have the "Admin" role.</response>
+            <response code="404">Returns not found if the product with the given ID does not exist.</response>
+            <response code="500">Returns an internal server error if an unexpected error occurs.</response>
+        </member>
+        <member name="M:ProductController.UpdateProduct(System.Int32,Application.DTOs.ProductDTOs.UpdateProductDto)">
+            <summary>
+            Updates a product's details by its ID.
+            </summary>
+            <param name="id">The ID of the product to be updated.</param>
+            <param name="updateProductDto">The updated product details.</param>
+            <returns>No content if the product is updated successfully, or an error message if an issue occurs.</returns>
+            <response code="204">Returns no content when the product is updated successfully.</response>
+            <response code="401">Returns unauthorized if the user is not authenticated or does not have the "Admin" role.</response>
+            <response code="404">Returns not found if the product with the given ID does not exist.</response>
+            <response code="500">Returns an internal server error if an unexpected error occurs.</response>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:Infrastructure.Migrations.InitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.InitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.InitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Infrastructure.Migrations.AddUserRoleJunctionTable">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.AddUserRoleJunctionTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.AddUserRoleJunctionTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.AddUserRoleJunctionTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Infrastructure.Migrations.AddUserRoleJunctionTable1">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.AddUserRoleJunctionTable1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.AddUserRoleJunctionTable1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.AddUserRoleJunctionTable1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Infrastructure.Migrations.AddproductAndCategoryTable">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.AddproductAndCategoryTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.AddproductAndCategoryTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.AddproductAndCategoryTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Infrastructure.Migrations.AddOrderTable1">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.AddOrderTable1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.AddOrderTable1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.AddOrderTable1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Infrastructure.Migrations.paymentTable1">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.paymentTable1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.paymentTable1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Migrations.paymentTable1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Infrastructure.Services.AuthService.LoginAsync(Application.DTOs.LoginREQ_RES.LoginRequest)">
+            <summary>
+            Validates the user's credentials and generates an access token and refresh token if the login is successful.
+            </summary>
+            <param name="loginRequest">The login request containing the user's email/username and password.</param>
+            <returns>A response containing the access token and refresh token for authenticated users.</returns>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when the credentials are invalid.</exception>
+        </member>
+        <member name="M:Infrastructure.Services.AuthService.RefreshAccessTokenAsync(System.String)">
+            <summary>
+            Validates the provided refresh token and issues a new access token if valid.
+            </summary>
+            <param name="refreshToken">The refresh token to validate.</param>
+            <returns>A new access token if the refresh token is valid and not expired.</returns>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown if the refresh token is invalid or expired.</exception>
+        </member>
+        <member name="T:Infrastructure.Services.CategoryService">
+            <summary>
+            Service for managing categories, including creating, updating, and deleting categories.
+            </summary>
+        </member>
+        <member name="M:Infrastructure.Services.CategoryService.#ctor(Infrastructure.Data.DbContextTask,Microsoft.AspNetCore.Http.IHttpContextAccessor,Microsoft.Extensions.Logging.ILogger{Infrastructure.Services.CategoryService})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Infrastructure.Services.CategoryService"/> class.
+            </summary>
+            <param name="context">The database context for interacting with the Categories and Products tables.</param>
+            <param name="httpContextAccessor">The HTTP context accessor for retrieving the current user's information.</param>
+            <param name="logger">The logger for logging events during category operations.</param>
+        </member>
+        <member name="M:Infrastructure.Services.CategoryService.CreateCategoryAsync(System.String)">
+            <summary>
+            Creates a new category with the specified name.
+            </summary>
+            <param name="categoryName">The name of the category to be created.</param>
+            <returns>The ID of the created category.</returns>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when the user is not authenticated or does not have the necessary permissions.</exception>
+            <exception cref="T:System.Exception">Thrown when an error occurs during category creation.</exception>
+        </member>
+        <member name="M:Infrastructure.Services.CategoryService.UpdateCategory(System.Int32,System.String)">
+            <summary>
+            Updates the name of an existing category.
+            </summary>
+            <param name="categoryId">The ID of the category to update.</param>
+            <param name="updatedCategory">The new name for the category.</param>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">Thrown when the category with the specified ID does not exist.</exception>
+            <exception cref="T:System.Exception">Thrown when an error occurs during category update.</exception>
+        </member>
+        <member name="M:Infrastructure.Services.CategoryService.DeleteCategoryAsync(System.Int32)">
+            <summary>
+            Deletes a category and its associated products from the database.
+            </summary>
+            <param name="categoryId">The ID of the category to delete.</param>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when the user is not authenticated or does not have the necessary permissions.</exception>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">Thrown when the category with the specified ID does not exist.</exception>
+            <exception cref="T:System.Exception">Thrown when an error occurs during category deletion.</exception>
+        </member>
+        <member name="M:Infrastructure.Services.OrderService.CreateOrderAsync(Application.DTOs.OrderDTOs.CreateOrderDto)">
+            <summary>
+            Creates a new order for a user and stores it in the database.
+            </summary>
+            <param name="createOrderDto">The details of the order to create.</param>
+            <returns>The ID of the created order.</returns>
+            <exception cref="T:System.ArgumentNullException">Thrown if the provided order data is null.</exception>
+            <exception cref="T:System.Exception">Thrown if an unexpected error occurs while creating the order or adding order items.</exception>
+        </member>
+        <member name="M:Infrastructure.Services.OrderService.GetOrderByIdAsync(System.Int32)">
+            <summary>
+            Retrieves an order by its ID, including the order items.
+            </summary>
+            <param name="orderId">The ID of the order to retrieve.</param>
+            <returns>The order with its associated items, or null if not found.</returns>
+        </member>
+        <member name="M:Infrastructure.Services.ProductService.AddProductAsync(Application.DTOs.ProductDTOs.CreateProductDto)">
+            <summary>
+            Adds a new product to the database.
+            </summary>
+            <param name="createProductDto">The data transfer object containing the product information.</param>
+            <returns>A task representing the asynchronous operation.</returns>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown if the user is not authenticated or does not have the "Admin" role.</exception>
+            <exception cref="T:System.Exception">Thrown if an unexpected error occurs while adding the product to the database.</exception>
+        </member>
+        <member name="M:Infrastructure.Services.ProductService.GetProductByIdAsync(System.Int32)">
+            <summary>
+            Retrieves a product by its ID.
+            </summary>
+            <param name="productId">The ID of the product to retrieve.</param>
+            <returns>The product if found, otherwise null.</returns>
+            <exception cref="T:System.Exception">Throws if an error occurs while retrieving the product.</exception>
+        </member>
+        <member name="M:Infrastructure.Services.ProductService.DeleteProductAsync(System.Int32)">
+            <summary>
+            Deletes a product by its ID.
+            </summary>
+            <param name="productId">The ID of the product to be deleted.</param>
+            <returns>A task representing the asynchronous operation.</returns>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown if the user is not authenticated or does not have the "Admin" role.</exception>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">Thrown if the product with the specified ID does not exist.</exception>
+            <exception cref="T:System.Exception">Thrown if an unexpected error occurs while deleting the product.</exception>
+        </member>
+        <member name="M:Infrastructure.Services.ProductService.UpdateProductAsync(System.Int32,Application.DTOs.ProductDTOs.UpdateProductDto)">
+            <summary>
+            Updates a product's details by its ID.
+            </summary>
+            <param name="productId">The ID of the product to be updated.</param>
+            <param name="updateProductDto">The updated product details.</param>
+            <returns>A task representing the asynchronous operation.</returns>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown if the user is not authenticated or does not have the "Admin" role.</exception>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">Thrown if the product with the specified ID does not exist.</exception>
+            <exception cref="T:System.Exception">Thrown if an unexpected error occurs while updating the product.</exception>
+        </member>
+        <member name="T:Infrastructure.Services.StripeService">
+            <summary>
+            Service for handling Stripe payments, including creating and confirming payment intents.
+            </summary>
+        </member>
+        <member name="M:Infrastructure.Services.StripeService.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Infrastructure.Data.DbContextTask)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Infrastructure.Services.StripeService"/> class.
+            </summary>
+            <param name="configuration">The configuration containing the Stripe API key.</param>
+            <param name="context">The database context for interacting with payment records.</param>
+        </member>
+        <member name="M:Infrastructure.Services.StripeService.CreatePaymentIntent(System.Decimal,System.Int32,System.String)">
+            <summary>
+            Creates a payment intent with the specified amount and order ID.
+            </summary>
+            <param name="amount">The amount for the payment (in the currency's smallest unit, e.g., cents for USD).</param>
+            <param name="orderId">The order ID associated with the payment.</param>
+            <param name="currency">The currency code (default is "usd").</param>
+            <returns>The created PaymentIntent object.</returns>
+        </member>
+        <member name="M:Infrastructure.Services.StripeService.ConfirmPaymentIntent(System.String,System.String)">
+            <summary>
+            Confirms a payment intent with the given payment method.
+            </summary>
+            <param name="paymentIntentId">The ID of the PaymentIntent to confirm.</param>
+            <param name="paymentMethodId">The ID of the payment method used to confirm the PaymentIntent.</param>
+            <returns>The confirmed PaymentIntent object.</returns>
+        </member>
+        <member name="M:Infrastructure.Services.StripeService.CreatePaymentRecord(Stripe.PaymentIntent,System.Int32)">
+            <summary>
+            Creates a payment record in the database when a payment intent is created.
+            </summary>
+            <param name="paymentIntent">The PaymentIntent object returned by Stripe.</param>
+            <param name="orderId">The order ID associated with the payment.</param>
+            <returns>A task representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:Infrastructure.Services.StripeService.UpdatePaymentRecord(Stripe.PaymentIntent)">
+            <summary>
+            Updates the payment record in the database with the payment intent status.
+            </summary>
+            <param name="paymentIntent">The PaymentIntent object returned by Stripe.</param>
+            <returns>A task representing the asynchronous operation.</returns>
+        </member>
+        <member name="T:TokenService">
+            <summary>
+            Provides methods for generating JWT access tokens and refresh tokens.
+            </summary>
+        </member>
+        <member name="M:TokenService.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Infrastructure.Data.DbContextTask)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TokenService"/> class.
+            </summary>
+            <param name="configuration">The configuration containing JWT settings.</param>
+            <param name="context">The database context for accessing user roles.</param>
+        </member>
+        <member name="M:TokenService.GenerateAccessToken(Domain.Entities.Domain.Entities.User)">
+            <summary>
+            Generates an access token for the specified user.
+            </summary>
+            <param name="user">The user for whom the access token is being generated.</param>
+            <returns>The generated JWT access token.</returns>
+        </member>
+        <member name="M:TokenService.GenerateRefreshToken(Domain.Entities.Domain.Entities.User)">
+            <summary>
+            Generates a refresh token for the specified user.
+            </summary>
+            <param name="user">The user for whom the refresh token is being generated.</param>
+            <returns>A newly generated refresh token.</returns>
+        </member>
+    </members>
+</doc>

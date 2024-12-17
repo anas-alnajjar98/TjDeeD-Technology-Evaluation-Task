@@ -1,0 +1,706 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\webapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\services\\stripeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\stripeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D8CDF7B-7300-4FA3-8FDC-FCB4E9F19191}|Application\\Application.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D8CDF7B-7300-4FA3-8FDC-FCB4E9F19191}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8DCE41A6-ACF3-4BCA-8E4F-7A2C7B8292F8}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\data\\dbcontexttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\dbcontexttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\migrations\\20241217155022_addordertable1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241217155022_addordertable1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D8CDF7B-7300-4FA3-8FDC-FCB4E9F19191}|Application\\Application.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\application\\dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D8CDF7B-7300-4FA3-8FDC-FCB4E9F19191}|Application\\Application.csproj|solutionrelative:application\\dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D8CDF7B-7300-4FA3-8FDC-FCB4E9F19191}|Application\\Application.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\application\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D8CDF7B-7300-4FA3-8FDC-FCB4E9F19191}|Application\\Application.csproj|solutionrelative:application\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\migrations\\20241216162041_adduserrolejunctiontable1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241216162041_adduserrolejunctiontable1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\migrations\\20241216160551_adduserrolejunctiontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241216160551_adduserrolejunctiontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D8CDF7B-7300-4FA3-8FDC-FCB4E9F19191}|Application\\Application.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\application\\dtos\\loginreq\u0026res\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D8CDF7B-7300-4FA3-8FDC-FCB4E9F19191}|Application\\Application.csproj|solutionrelative:application\\dtos\\loginreq\u0026res\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D8CDF7B-7300-4FA3-8FDC-FCB4E9F19191}|Application\\Application.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\application\\dtos\\loginreq\u0026res\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D8CDF7B-7300-4FA3-8FDC-FCB4E9F19191}|Application\\Application.csproj|solutionrelative:application\\dtos\\loginreq\u0026res\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\helper\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D8CDF7B-7300-4FA3-8FDC-FCB4E9F19191}|Application\\Application.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\application\\dtos\\userdtos\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D8CDF7B-7300-4FA3-8FDC-FCB4E9F19191}|Application\\Application.csproj|solutionrelative:application\\dtos\\userdtos\\userregistrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\migrations\\dbcontexttaskmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\dbcontexttaskmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\migrations\\20241216160551_adduserrolejunctiontable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241216160551_adduserrolejunctiontable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\infrastructure\\migrations\\20241216141853_initialmigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC99A7C6-ACBB-4791-A9AF-03E9F389A55C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20241216141853_initialmigration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5CD50E36-349C-469C-B635-004D20470E4C}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D57B51-86E9-4946-8051-704F4C32337D}|TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\tjdeedtechnologyevaluationtask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{34D57B51-86E9-4946-8051-704F4C32337D}|TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask.csproj|solutionrelative:tjdeedtechnologyevaluationtask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D57B51-86E9-4946-8051-704F4C32337D}|TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\tjdeedtechnologyevaluationtask\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34D57B51-86E9-4946-8051-704F4C32337D}|TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask.csproj|solutionrelative:tjdeedtechnologyevaluationtask\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D57B51-86E9-4946-8051-704F4C32337D}|TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\tjdeedtechnologyevaluationtask\\tjdeedtechnologyevaluationtask.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{34D57B51-86E9-4946-8051-704F4C32337D}|TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask.csproj|solutionrelative:tjdeedtechnologyevaluationtask\\tjdeedtechnologyevaluationtask.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D57B51-86E9-4946-8051-704F4C32337D}|TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask.csproj|c:\\users\\01\\desktop\\anas\\tjdeedtechnologyevaluationtask\\tjdeedtechnologyevaluationtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34D57B51-86E9-4946-8051-704F4C32337D}|TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask.csproj|solutionrelative:tjdeedtechnologyevaluationtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 327,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T20:00:16.161Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:19:13.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WebAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\WebAPI.csproj",
+              "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\WebAPI.csproj",
+              "RelativeToolTip": "WebAPI\\WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T19:20:17.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Entities\\Payment.cs",
+              "RelativeToolTip": "Domain\\Entities\\Payment.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:39:04.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T20:14:44.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEAAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:44:31.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\AuthService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\AuthService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwEsAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:15:46.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\ProductService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\ProductService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T20:04:30.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:34:06.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\OrderService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T17:59:34.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StripeService.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\StripeService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\StripeService.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\StripeService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\StripeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:17:16.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwFgAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T16:10:06.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\TokenService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\TokenService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowC4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:40:14.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Services\\UserService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\UserService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T14:43:38.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T18:59:28.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwE4AAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:00:03.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "Domain\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:27:20.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswFwAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T19:02:04.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T15:32:22.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABIAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T15:31:52.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:33:44.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20241217155022_AddOrderTable1.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Migrations\\20241217155022_AddOrderTable1.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241217155022_AddOrderTable1.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Migrations\\20241217155022_AddOrderTable1.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241217155022_AddOrderTable1.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T15:53:14.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-15T18:30:59.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DbContextTask.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Data\\DbContextTask.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\DbContextTask.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Data\\DbContextTask.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\DbContextTask.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:55:05.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Application\\DTOs\\ProductDTOs\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ProductDTOs\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Application\\DTOs\\ProductDTOs\\CreateProductDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\ProductDTOs\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T20:33:37.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Application\\DTOs\\ProductDTOs\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ProductDTOs\\UpdateProductDto.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Application\\DTOs\\ProductDTOs\\UpdateProductDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\ProductDTOs\\UpdateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T15:07:25.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20241216160551_AddUserRoleJunctionTable.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Migrations\\20241216160551_AddUserRoleJunctionTable.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241216160551_AddUserRoleJunctionTable.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Migrations\\20241216160551_AddUserRoleJunctionTable.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241216160551_AddUserRoleJunctionTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:11:05.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20241216162041_AddUserRoleJunctionTable1.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Migrations\\20241216162041_AddUserRoleJunctionTable1.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241216162041_AddUserRoleJunctionTable1.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Migrations\\20241216162041_AddUserRoleJunctionTable1.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241216162041_AddUserRoleJunctionTable1.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:41:59.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Application\\DTOs\\LoginREQ\u0026RES\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\LoginREQ\u0026RES\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Application\\DTOs\\LoginREQ\u0026RES\\LoginResponse.cs",
+              "RelativeToolTip": "Application\\DTOs\\LoginREQ\u0026RES\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:27:43.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Application\\DTOs\\LoginREQ\u0026RES\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\LoginREQ\u0026RES\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Application\\DTOs\\LoginREQ\u0026RES\\LoginRequest.cs",
+              "RelativeToolTip": "Application\\DTOs\\LoginREQ\u0026RES\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T17:27:21.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Helper\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Helper\\PasswordHelper.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Helper\\PasswordHelper.cs",
+              "RelativeToolTip": "Infrastructure\\Helper\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T14:23:38.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserRegistrationDto.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Application\\DTOs\\UserDTOS\\UserRegistrationDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\UserDTOS\\UserRegistrationDto.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Application\\DTOs\\UserDTOS\\UserRegistrationDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\UserDTOS\\UserRegistrationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T14:28:08.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20241216141853_InitialMigration.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Migrations\\20241216141853_InitialMigration.Designer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241216141853_InitialMigration.Designer.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Migrations\\20241216141853_InitialMigration.Designer.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241216141853_InitialMigration.Designer.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAgwAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:11:25.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20241216160551_AddUserRoleJunctionTable.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Migrations\\20241216160551_AddUserRoleJunctionTable.Designer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20241216160551_AddUserRoleJunctionTable.Designer.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Migrations\\20241216160551_AddUserRoleJunctionTable.Designer.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20241216160551_AddUserRoleJunctionTable.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:18:16.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DbContextTaskModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Migrations\\DbContextTaskModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\DbContextTaskModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Infrastructure\\Migrations\\DbContextTaskModelSnapshot.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\DbContextTaskModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:18:24.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T19:27:16.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask\\appsettings.json",
+              "RelativeDocumentMoniker": "TjDeeDTechnologyEvaluationTask\\appsettings.json",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask\\appsettings.json",
+              "RelativeToolTip": "TjDeeDTechnologyEvaluationTask\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-15T18:09:37.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "TjDeeDTechnologyEvaluationTask\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask\\WeatherForecast.cs",
+              "RelativeToolTip": "TjDeeDTechnologyEvaluationTask\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:05:15.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TjDeeDTechnologyEvaluationTask.http",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask.http",
+              "RelativeDocumentMoniker": "TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask.http",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask.http",
+              "RelativeToolTip": "TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-15T18:05:12.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask\\Program.cs",
+              "RelativeDocumentMoniker": "TjDeeDTechnologyEvaluationTask\\Program.cs",
+              "ToolTip": "C:\\Users\\01\\Desktop\\Anas\\TjDeeDTechnologyEvaluationTask\\TjDeeDTechnologyEvaluationTask\\Program.cs",
+              "RelativeToolTip": "TjDeeDTechnologyEvaluationTask\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T17:59:14.561Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 73,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
